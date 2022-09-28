@@ -9,19 +9,23 @@
 <div class="main_title">Education</div>
 <!-- <h1 style="text-align: center">Education</h1> -->
 <br />
+
+<div class = "learningB">
 {% for k,v in edu.items() %}
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <div class="p">{{k}}</div>
-    </div>
-    <div class="flip-card-back">
-      <div class="p">{{v}}</div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="p">{{k}}</div>
+          </div>
+      <div class="flip-card-back">
+        <div class="p">{{v}}</div>
+      </div>
     </div>
   </div>
+{% endfor %} 
 </div>
-<br />
-{% endfor %} {% endblock %} {% block work %}
+{% endblock %} 
+{% block work %}
 <div class="main_title">Work</div>
 <!-- <h1 style="text-align: center">Work</h1> -->
 {% for k,v in work.items() %}

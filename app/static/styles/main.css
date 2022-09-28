@@ -18,10 +18,13 @@ body {
     margin: 0px;
     height: 100%;
 }
-
+.learningB{
+    display: flex;
+    flex-direction: row;
+}
 .about {
     margin-bottom: 40px;
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
     background-image: linear-gradient(#b8cfec, #f8e8ed);
     height: 100vh;
@@ -32,7 +35,7 @@ body {
     flex-direction: column;
 }
 #vid{
-    position: fixed;   
+    position: sticky;  
     right:0;
     bottom: 0px;
     min-width: 100%;
@@ -81,7 +84,7 @@ body {
 
 
 .education {
-    overflow-x: scroll;
+    overflow: hidden;
     position: relative;
     background-image: linear-gradient( #f8e8ed, #f8e8ed);
     height: 100vh;
@@ -93,7 +96,7 @@ body {
 }
 
 .work {
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
     /* background-color: whitesmoke; */
     background-image: linear-gradient( #f8e8ed, #d4f0f7);
@@ -106,7 +109,7 @@ body {
 }
 
 .hobbies {
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
     /* background-color: whitesmoke; */
     background-image: linear-gradient( #d4f0f7, #d0d5f7);
@@ -119,7 +122,7 @@ body {
 }
 
 .places {
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
     /* background-color: whitesmoke; */
     background-image: linear-gradient( #d0d5f7, #b8cfec);
@@ -132,7 +135,7 @@ body {
 }
 
 .map {
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
     /* background-color: whitesmoke; */
     background-image: linear-gradient( #b8cfec, #7fa0c9);
